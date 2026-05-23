@@ -124,11 +124,17 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv312/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+
+# DeepFace / TensorFlow: pesos de modelos y caché de representaciones
+weights/
+*.h5
+*.pkl
 
 # Spyder project settings
 .spyderproject
